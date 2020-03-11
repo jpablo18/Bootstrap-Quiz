@@ -7,50 +7,46 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="css/main.css">
-    <title>INDEX</title>
+
+    <title>Form</title>
+    <style media="screen">
+      .center {
+        text-align: center;
+      }
+      .text {
+        width:100px;
+      }
+    </style>
   </head>
   <body>
+<div class="center">
 
-    <div class="container-fluid">
+  <h1>CONTACT FORM TEMPLATE</h1>
 
-      <div class="row tall">
-        <div class="col-lg-3 col-md-2 col-sm-12">
-              <h1>Hello, world!</h1>
-        </div>
-        <div class="col-lg-9 col-md-10 col-sm-12">
-              <h1>Hello, world!</h1>
-        </div>
+  <form>
+    <div class="row justify-content-center">
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Name">
       </div>
-
-        <div class="row tall">
-          <div class="col-lg-12">
-                <h1>Hello, world!</h1>
-          </div>
-        </div>
-
-          <div class="row tall">
-            <div class="col-lg-12">
-                  <h1>Hello, world!</h1>
-            </div>
-          </div>
-
-
-            <div class="row tall">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h1>Hello, world!</h1>
-              </div>
-              <div class="col-lg-4 col-md-4 ">
-                  <h1>Hello, world!</h1>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                  <h1>Hello, world!</h1>
-              </div>
-
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Email">
       </div>
-
-
-
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Phone ">
+      </div>
+      </div>
+  </form>
+  <br>
+  <div class="row justify-content-center">
+    <div class="form-group col-9">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  <br>
+  </div>
+<div class="row justify-content-center">
+    <button type="submit" class="btn btn-primary mb-2">Send Form</button>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
